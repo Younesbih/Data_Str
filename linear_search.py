@@ -10,7 +10,7 @@ def linear_search(num,target):
         print(f"this element is not found")
 tar = int(input("enter the elemenet your searching for it must to be an integer: "))
 numbers = [9,4,6,7,1,5,0,3,2]
-linear_search(numbers,tar)
+result = linear_search(numbers,tar)
 
 def search_in_list(list,target):
     for i in range(len(list)):
