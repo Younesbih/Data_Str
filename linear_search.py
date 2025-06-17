@@ -4,7 +4,7 @@ def linear_search(num,target):
     for i in range(len(num)):
         if num[i] == target:
             print(f"target found at index: {i}")
-            target_found == True
+            target_found = True
             break
     if target_found == False:
         print(f"this element is not found")
