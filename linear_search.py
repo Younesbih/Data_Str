@@ -4,8 +4,9 @@ def linear_search(num,target):
     for i in range(len(num)):
         if num[i] == target:
             print(f"target found at index: {i}")
+            target_found == True
             break
-    if not target_found:
+    if target_found == False:
         print(f"this element is not found")
 tar = int(input("enter the elemenet your searching for it must to be an integer: "))
 numbers = [9,4,6,7,1,5,0,3,2]
